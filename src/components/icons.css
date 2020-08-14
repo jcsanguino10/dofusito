@@ -1,0 +1,70 @@
+.icono::before {
+    content: " ";
+    background-image: url("../images/caracteristica.png");
+    width: 34px;
+    height: 22px;
+}
+
+.iconovitalidad::before {
+    background-position-y: 1134px;
+}
+
+.iconoPA::before {
+    background-position-y: 1209px;
+}
+
+.iconoPM::before {
+    background-position-y: 1402px;
+}
+
+.iconoiniciativa::before {
+    background-position-y: 1248px;
+}
+
+.iconoprospección::before {
+    background-position-y: 1175px;
+}
+
+.iconoAl::before {
+    background-position-y: 1326px;
+}
+
+.iconosabiduria::before {
+    background-position-y: 1095px;
+}
+
+.iconoinvocaciones::before {
+    background-position-y: 946px;
+}
+
+.iconofuerza::before {
+    background-position-y: 1020px;
+}
+
+.iconointeligencia::before {
+    background-position-y: 1058px;
+}
+
+.iconosuerte::before {
+    background-position-y: -73px;
+}
+
+.iconoagilidad::before {
+    background-position-y: -151px;
+}
+
+.iconopotencia::before {
+    background-position-y: 344px;
+}
+
+.iconocriticos::before {
+    background-position-y: 863px;
+}
+
+.tableAtributos .icono::before{
+    width: 22px;
+    padding-right: 0px;
+}
+
+
+

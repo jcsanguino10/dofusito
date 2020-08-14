@@ -1,0 +1,125 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.icono, .atributo {
+    display: inline-flex;
+}
+
+.principalCarac{
+    padding: 0px 10px;
+}
+
+.tableAtributos .icono{
+    width: 22px;
+    padding-right: 0px;
+    left: 10px;
+}
+
+.division {
+    padding: 5px 15px;
+    border-style: dashed;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: #80808054;
+}
+
+.labelNivel {
+    text-align: center;
+}
+
+.value {
+    text-align: end;
+    width: 100%;
+}
+
+.labelCarac {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+}
+
+#nivelPjta, .inputAtributo {
+    text-align: center;
+    padding: 0px;
+    outline: none;
+    border: solid 0.2px #babcbd;
+    background: transparent;
+}
+
+.gridItems{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: repeat(5,6rem);
+}
+
+.personaje{
+    grid-column: 3/5;
+    grid-row: 1/5;
+}
+
+.labelImg {
+    display: flex;
+    justify-content: center;
+}
+
+.break4{
+    grid-row: 4;
+}
+
+.buttonItem{
+    background-color: #8080805c;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.imgLevel {
+    text-align: center;
+    font-size: 24px;
+}
+
+.imgPlayer{
+    width: 60%;
+    height: 60%;
+}
+
+#nivelPjta{
+    width: 100%;
+    border: 0px;
+}
+
+.wrapperInput{
+    background: white;
+    border: solid 0.2px #babcbd;
+    border-radius: 4px;
+}
+
+.card-img-top{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 5rem;
+}
+
+.itemCardInfo{
+    border-radius: 8px;
+    background-color: white;
+    border: solid 1px #0000003d;
+}
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.catalogo{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.removeMP{
+    margin: 0px;
+    padding: 0px;
+}
